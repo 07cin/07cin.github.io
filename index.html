@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cindy Galindo - Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <p class="eyebrow">DISEÑADORA GRÁFICA & GAME DEVELOPER</p>
+  </div>
+
+  <div class="header-principal">
+    <h1 class="titulo-grande">PORTFOLIO</h1>
+    <div class="header-botones">
+      <a href="https://www.behance.net/cindygalindo" target="_blank">🎨 Ver Behance</a>
+      <a href="cv.pdf" target="_blank">📄 Descargar CV</a>
+    </div>
+  </div>
+
+  <div class="header-bottom">
+    <div class="header-texto">
+      <p class="tagline">Diseño experiencias que <em>enganchan</em> y <em>cuentan historias</em>.</p>
+      <p class="bio-corta">Hola, soy Cindy Galindo. Diseñadora gráfica y desarrolladora de videojuegos apasionada por crear mundos jugables con identidad visual propia.</p>
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <div class="sobre-mi-contenido">
+      <img src="imagenes/mifoto.png" alt="Cindy Galindo" class="foto-sobre-mi">
+      <p>Soy diseñadora gráfica especializada en UX/UI y enfocada en el desarrollo de experiencias visuales para videojuegos. Combino conocimientos en diseño de interfaces, diseño visual, ilustración, Unity y Game Testing (QA) para desarrollar soluciones funcionales y atractivas que contribuyan a una experiencia de juego coherente y de calidad. Mi experiencia en diseño me permite transformar conceptos en elementos visuales, mientras que mis conocimientos técnicos en desarrollo y testing me ayudan a comprender el producto de forma integral y colaborar eficazmente con equipos multidisciplinarios.</p>
+    </div>
+  </section>
+
+    <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+
+    <div class="tarjeta" onclick="abrirModal(
+        'imagenes/mixerdoctor.jpg',
+        'Mixer Doctor',
+        '<strong>Qué es:</strong> Juego 2D de supervivencia con vista Top-Down, desarrollado durante una Game Jam.<br><br><strong>Motor:</strong> Unity<br><br><strong>Rol:</strong> UI Design, diseño visual y creación de assets 2D.<br><br><strong>Mecánicas clave:</strong> Mezcla de químicos para descubrir habilidades y ataques, experimentación, combate contra oleadas de enemigos, sistema de riesgo/recompensa y supervivencia.',
+        'https://eduardo-riba.itch.io/mixer-doctor'
+      )">
+        <img src="imagenes/mixerdoctor.jpg" alt="Mixer Doctor">
+        <h3>Mixer Doctor</h3>
+        <p>Mixer Doctor es un juego 2D de supervivencia basado en la experimentación con diferentes combinaciones de químicos. Desarrollado durante una Game Jam, con participación en UI Design, diseño visual y creación de assets 2D.</p>
+    </div>
+
+    <div class="tarjeta" onclick="abrirModal(
+        'imagenes/deepception.jpg',
+        'Deepception',
+        '<strong>Qué es:</strong> Juego 2D de ficción interactiva y narrativa psicológica.<br><br><strong>Motor:</strong> Unity<br><br><strong>Game Jam:</strong> Deeper & Deeper Game Jam<br><br><strong>Rol:</strong> UI Design y creación de arte 2D.<br><br><strong>Mecánicas clave:</strong> Exploración por pisos, recolección e interacción con objetos, narrativa progresiva y descubrimiento de la realidad detrás de las acciones del protagonista.<br><br><strong>Plataforma:</strong> HTML5 / Navegador',
+        'https://ferxha.itch.io/deepception'
+      )">
+        <img src="imagenes/deepception.jpg" alt="Deepception">
+        <h3>Deepception</h3>
+        <p>DEEPCEPTION es un juego 3D de ficción interactiva en el que el jugador desciende por un edificio piso por piso mientras intenta cumplir una misión que, poco a poco, revela una realidad muy diferente a la que percibe. Desarrollado durante la Deeper & Deeper Game Jam.</p>
+    </div>
+
+    <div class="tarjeta" onclick="abrirModal(
+        'imagenes/theascent.jpg',
+        'The Ascent: Broken Order',
+        '<strong>Qué es:</strong> Juego 3D de acción y exploración con cámara Top-Down, desarrollado como proyecto final de un bootcamp.<br><br><strong>Motor:</strong> Unity<br><br><strong>Estilo:</strong> 3D estilizado<br><br><strong>Género:</strong> Acción / Exploración<br><br><strong>Plataforma:</strong> Navegador (HTML5)<br><br><strong>Rol:</strong> UI Designer<br><br><strong>Mecánicas clave:</strong> Combate contra enemigos, exploración de vagones, recolección de objetos y progresión a través de diferentes niveles sociales, con una transformación visual del entorno a medida que el jugador asciende.',
+        'https://07cin.itch.io/the-ascent-broken-order'
+      )">
+        <img src="imagenes/theascent.jpg" alt="The Ascent: Broken Order">
+        <h3>The Ascent: Broken Order</h3>
+        <p>The Ascent: Broken Order es un juego 3D de acción y exploración con cámara Top-Down, ambientado en un enorme tren dividido por clases sociales. El jugador debe ascender desde los niveles inferiores, enfrentando enemigos y explorando diferentes vagones hasta llegar a las zonas de la élite. El proyecto fue desarrollado en equipo como proyecto final de un bootcamp.</p>
+    </div>
+
+    
+
+    </div>
+  </section>
+
+    <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contacto-links">
+      <a href="email:cindy.p_07@hotmail.com">📧 Email</a>
+      <a href="https://07cin.itch.io/" target="_blank">🎮 itch.io</a>
+      <a href="https://github.com/07cin" target="_blank">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/cindy-paola-galindo-romero-841790b7" target="_blank">💼 LinkedIn</a>
+    </div>
+  </section>
+
+    <div id="modal" class="modal">
+    <div class="modal-contenido">
+      <span id="cerrar-modal" class="cerrar">&times;</span>
+      <img id="modal-imagen" src="" alt="">
+      <h3 id="modal-titulo"></h3>
+      <p id="modal-descripcion"></p>
+      <a id="modal-link" href="" target="_blank">Ver más</a>
+    </div>
+  </div>
+
+    <script>
+    function abrirModal(imagen, titulo, descripcion, link) {
+      document.getElementById('modal-imagen').src = imagen;
+      document.getElementById('modal-titulo').textContent = titulo;
+      document.getElementById('modal-descripcion').innerHTML = descripcion;
+      document.getElementById('modal-link').href = link;
+      document.getElementById('modal').style.display = 'flex';
+    }
+
+    function cerrarModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+
+    document.getElementById('cerrar-modal').addEventListener('click', cerrarModal);
+
+    document.getElementById('modal').addEventListener('click', function(evento) {
+      if (evento.target === this) {
+        cerrarModal();
+      }
+    });
+  </script>
+
+</body>
+</html>
